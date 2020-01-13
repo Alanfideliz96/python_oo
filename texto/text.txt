@@ -1,0 +1,26 @@
+
+'''
+Contrutor
+
+começa com quem vai inciar seu objeto que no caso é a função init() -> contstrutor
+que sempre começa com self e depois os outros parametors que colocaremos na classe e obrigaremos o usuário passar
+o metodo new() é aquele que é chamado antes do init e constroi o objeto
+
+o self é uma refernecia para acessar o objeto
+
+quando eu faço c1 = c2 eu acabo na verdade guardando o endereço de onde o objeto está na memória
+então não inforta o que eu fazer com o c1, vai mudar o c2 também pois eu guard4ei os dois na mesma memória
+
+
+um nétodo que é usado para obter um valor ( seria o getter no java) é decorado com o @property
+o método que tem que funcionar como setter é decorado com @saldo.setter( por exemplo)
+
+
+metodos estáticos não precisam de referencia, não recebem um primeiro argumento especial ( self)
+é como se fosse uma função simples que está na classe
+paraque isso de certo tem que usar o decorator @stticmethod
+
+
+
+'''
+
